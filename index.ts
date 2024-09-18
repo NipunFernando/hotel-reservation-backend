@@ -82,7 +82,7 @@ router.get("/roomTypes", async (req: Request, res) => {
     );
     res.json(roomTypes);
   } catch (error) {
-    res.status(500).json({ error: "Internal server error" });
+    res.status(500).json({ error: "Internal server error XXXXXXX" });
   }
 });
 
